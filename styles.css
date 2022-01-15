@@ -1,1 +1,95 @@
 
+body{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+
+header{
+   background-image: url("data:image/png;base64,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"); 
+   background-repeat: no-repeat; 
+ }
+
+h1, h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+footer{
+   text-align: center;
+ }
+
+span{
+    color: gold;
+}
+  
+header, footer{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+#first1, #last1, #first2, #last2, #first3, #last3, #first4, #last4, #first5, #last5, #first6, #last6, #first7, #last7, #first8, #last8, #first9, #last9{
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+#first1, #first2, #first3, #first4, #first5, #first6, #first7, #first8, #first9{
+  padding: 15px;
+}
+
+#last1, #last2, #last3, #last4, #last5, #last6, #last7, #last8, #last9{
+  margin-top: -15px;
+}
+
+#position1, #position2, #position3, #position4, #position5, #position6, #position6, #position7, #position8, #position9{
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: gold;
+  padding: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+ }
+
+#nickName1, #nickName2, #nickName3, #nickName4, #nickName5, #nickName6, #nickName7, #nickName8, #nickName9{
+ border-top-style: solid;
+ border-top-color: gold;
+ border-top-width: 10px;
+}
+
+#nickName1, #favFood1, #shoe1, #nickName2, #favFood2, #shoe2, #nickName3, #favFood3, #shoe3, #nickName4, #favFood4, #shoe4, #nickName5, #favFood5, #shoe5, #nickName6, #favFood6, #shoe6, #nickName7, #favFood7, #shoe7, #nickName8, #favFood8, #shoe8, #nickName9, #favFood9, #shoe9{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.row{
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.playerCard{
+    background-color: cornflowerblue;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: green;
+  }
+  
+.imgBox img{
+    width:100%;
+    height: 100%;
+}
+
+.details{
+  padding: 10px;
+  background-color: red;;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: gold;
+}
