@@ -2,7 +2,7 @@
 /*Use the powers of the Document Object Model (DOM) to complete the following exercises below:*/
 
 //1. Ronald McDonald
-//Find the div with the id of "name1" and replace the 'Robert' with the 'Ronald'
+//Find the div with the id of "first1" and replace the 'Robert' with the 'Ronald'
 
 
 
