@@ -115,6 +115,10 @@ players[6].prepend(OGfirst);
       add this newly created div element to Fry Guys player card
 */
 
+let fryNickName = document.createElement('div');
+fryNickName.id = 'nickName8';
+fryNickName.innerHTML = 'aka: Pom-poms';
+players[7].appendChild(fryNickName);
 
 
 
@@ -124,6 +128,10 @@ players[6].prepend(OGfirst);
       add this newly created div element to Fry Guys player card
 */
 
+let fryFave = document.createElement('div');
+fryFave.id = 'favFood8';
+fryFave.innerHTML = 'Favorite Food: French Fries';
+players[7].appendChild(fryFave);
 
 
 /*6.3 Create a div element with:
@@ -132,6 +140,10 @@ players[6].prepend(OGfirst);
       add this newly created div element to Fry Guys player card
 */
 
+let fryShoe = document.createElement('div');
+fryShoe.id = 'shoe8';
+fryShoe.innerHTML = 'Shoe: Puma';
+players[7].appendChild(fryShoe);
 
 
 //7. Birdie the Early Bird
