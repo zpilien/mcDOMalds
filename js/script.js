@@ -4,10 +4,13 @@
 //1. Ronald McDonald
 //Find the div with the id of "first1" and replace the 'Robert' with the 'Ronald'
 
-
+let first1 = document.getElementById('first1');
+first1.innerHTML = 'Ronald';
 
 //Find the div id of 'favFood1' and replace 'Favorite Food: Whoppers' with 'Favorite Food: Big Macs'
 
+let favFood1 = document.getElementById('favFood1');
+favFood1.innerHTML = 'Favorite Food: Big Macs';
 
 //Find the div id of 'shoe1' and replace 'Shoe: n/a' with 'Shoe: Clown'
 
