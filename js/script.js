@@ -58,7 +58,13 @@ shoe3.innerHTML = 'Shoe: Li-Ning';
 //4.2 border style to 'solid'
 //4.3 border color to 'gold'
 
+let cards = document.getElementsByClassName('playerCard');
 
+for(i=0; i<cards.length; i++){
+      cards[i].style.background = 'red';
+      cards[i].style.borderStyle = 'solid';
+      cards[i].style.borderColor = 'gold';
+}
 
 //5. Uncle O'Grimacey
 //Create the following for each element:
