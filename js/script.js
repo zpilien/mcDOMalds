@@ -75,6 +75,12 @@ for(i=0; i<cards.length; i++){
       add this newly created div element to Uncle's player card
 */
 
+let players = document.getElementsByClassName('playerCard');
+
+let grimPos = document.createElement('div');
+grimPos.id = 'position7';
+grimPos.innerHTML = 'Coach';
+players[6].prepend(grimPos);
 
 
 /*5.2 Create a h1 element with:
@@ -82,7 +88,11 @@ for(i=0; i<cards.length; i++){
     innerHTML of "O'Grimacey"
     add this newly created h1 element to Uncle's player card
 */
-
+ 
+let OGlast = document.createElement('h1');
+OGlast.id = 'last7';
+OGlast.innerHTML = "O'Grimacey";
+players[6].prepend(OGlast);
 
 
 /*5.3 Create a h2 element with:
@@ -91,6 +101,10 @@ for(i=0; i<cards.length; i++){
     add this newly created h2 element to Uncle's player card
 */
 
+let OGfirst = document.createElement('h2');
+OGfirst.id = 'first7';
+OGfirst.innerHTML = 'Uncle';
+players[6].prepend(OGfirst);
 
 
 //6. Fry Guys
