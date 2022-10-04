@@ -38,15 +38,18 @@ nickName2.innerHTML = "The Poor Man's Barney";
 
 //Find the div with the id of 'nickName3' and replace 'aka: Mister President' with 'aka: Da Mayah'
 
-
+let nickName3 = document.getElementById('nickName3');
+nickName3.innerHTML = 'Da Mayah';
 
 //Find the div with the id of 'favFood3' and replace 'Favorite Food: Kale Salad' with 'Favorite Food: Cheeseburgers';
 
-
+let favFood3 = document.getElementById('favFood3');
+favFood3.innerHTML = 'Favorite Food: Cheeseburgers';
 
 //Find the div with the id of 'shoe3' and replace 'Shoe: Jordan Brand' with 'Shoe: Li-Ning'
 
-
+let shoe3 = document.getElementById('shoe3');
+shoe3.innerHTML = 'Shoe: Li-Ning';
 
 
 //4. Player cards 
