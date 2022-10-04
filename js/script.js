@@ -154,6 +154,10 @@ players[7].appendChild(fryShoe);
       add this newly created div element to Birdie's player card
 */
 
+let birdPos = document.createElement('div');
+birdPos.id = 'position9';
+birdPos.innerHTML = 'Head Scout';
+players[8].prepend(birdPos);
 
 
 /*7.2 Create a h1 element with:
@@ -162,6 +166,11 @@ players[7].appendChild(fryShoe);
     add this newly created h1 element to Birdie's player card
 */
 
+let birdLast = document.createElement('h1');
+birdLast.id = 'last9';
+birdLast.innerHTML = "Early Bird";
+players[8].prepend(birdLast);
+
 
 /*7.3 Create a h2 element with:
     id of 'first9'
@@ -169,6 +178,10 @@ players[7].appendChild(fryShoe);
     add this newly created h2 element to Birdie's player card
 */
 
+let birdFirst = document.createElement('h2');
+birdFirst.id = 'first9';
+birdFirst.innerHTML = 'Birdie the';
+players[8].prepend(birdFirst);
 
 
 /*7.4 Create a div element with:
@@ -177,7 +190,10 @@ players[7].appendChild(fryShoe);
       add this newly created div element to Birdie's player card
 */
 
-
+let birdNick = document.createElement('div');
+birdNick.id = 'nickName9';
+birdNick.innerHTML = 'aka: ODB';
+players[8].appendChild(birdNick);
 
 
 /*7.5 Create a div element with:
@@ -186,6 +202,10 @@ players[7].appendChild(fryShoe);
       add this newly created div element to Birdie's player card
 */
 
+let birdFave = document.createElement('div');
+birdFave.id = 'favFood9';
+birdFave.innerHTML = 'Favorite Food: The other white meat';
+players[8].appendChild(birdFave);
 
 
 
@@ -195,3 +215,7 @@ players[7].appendChild(fryShoe);
       add this newly created div element to Birdie's player card
 */
 
+let birdFoot = document.createElement('div');
+birdFoot.id = 'shoe9';
+birdFoot.innerHTML = 'Shoe: allbirds';
+players[8].appendChild(birdFoot);
