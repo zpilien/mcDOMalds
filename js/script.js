@@ -14,20 +14,24 @@ favFood1.innerHTML = 'Favorite Food: Big Macs';
 
 //Find the div id of 'shoe1' and replace 'Shoe: n/a' with 'Shoe: Clown'
 
-
+let shoe1 = document.getElementById('shoe1');
+shoe1.innerHTML = 'Shoe: Clown';
 
 //2. Evil Grimmace
 //Find the div with the id of "last2" and replace 'Grimmmmmmace' with the 'Grimmace': 
 
-
+let last2 = document.getElementById('last2');
+last2.innerHTML = 'Grimmace';
 
 //Find the div with the id of 'position2' and replace 'Point Guard' with 'Power Foward'
 
-
+let position2 = document.getElementById('position2');
+position2.innerHTML = 'Power Forward';
 
 //Find the div id of 'nickName2' and replace 'aka:The Purple Monster' with 'The Poor Man's Barney'
 
-
+let nickName2 = document.getElementById('nickName2');
+nickName2.innerHTML = "The Poor Man's Barney";
 
 
 //3. Mayor McCheese
