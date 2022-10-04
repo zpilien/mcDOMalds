@@ -12,4 +12,4 @@
 4. Open the mcDOMalds assignment in vscode and write your code in the `script.js` file.
 5. Run live-server in your terminal to see your page in the browser
    - `$ cd mcDOMalds`
-   - `live-server
+   - `live-server`
